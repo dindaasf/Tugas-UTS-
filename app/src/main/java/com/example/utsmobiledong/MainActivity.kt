@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
             "Fakultas Petanian merupakan salah satu dari 7 fakultas di UPN \"Veteran\" Jawa Timur. Fakultas Pertanian merupakan fakultas tertua di UPN bersama dengan Fakultas Ekonomi Dan Bisnis. Fakultas Pertanian merupakan Fakultas andalan UPN dari dulu. Fakultas ini sudah ada sejak awal setelah UPN dibangun. Berikut aalah Program Studi di Fakultas Pertanian : \n" +
                     "1. Agroteknologi\n" +
                     "2. Agribisnis", "http://faperta.upnjatim.ac.id/"))
-        partList.add(DataFakultas("FAKULTAS ILMU SOSIAL DAN BISNIS", R.drawable.fisip2,
+        partList.add(DataFakultas("FAKULTAS ILMU SOSIAL DAN POLITIK", R.drawable.fisip2,
             "Fakultas Ilmu Sosial dan Politik merupakan salah satu dari 7 fakultas di UPN \"Veteran\" Jawa Timur. Yang terdiri dari program studi :\n" +
                     "1. Administrasi Negara\n" +
                     "2. Administrasi Bisnis\n" +

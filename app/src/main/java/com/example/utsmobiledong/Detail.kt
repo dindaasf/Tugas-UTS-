@@ -264,14 +264,14 @@ class Detail : AppCompatActivity() {
             }
             if (part_id=="PROFIL MAHASISWA") {
                 setTitle(part_id)
+                id_Fakultas.setPaintFlags(UNDERLINE_TEXT_FLAG)
 
                 imageButton.visibility = View.GONE
                 imageButton2.visibility = View.GONE
                 imageButton4.visibility = View.GONE
                 imageButton3.visibility = View.GONE
                 imageButton5.visibility = View.GONE
-                id_deskrip.text = link
-                id_deskrip.setOnClickListener {
+                id_Fakultas.setOnClickListener {
                     val showDetailActivityIntent = Intent(this, webView::class.java)
                     showDetailActivityIntent.putExtra(Intent.EXTRA_EMAIL,link)
                     startActivity(showDetailActivityIntent)
